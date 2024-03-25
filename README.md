@@ -25,13 +25,13 @@ Operation "operations/acf.cc11852d-40af-47ad-9d59-477a12847c9e" finished success
 3. Set the compute region:
 
 ```bash
-gcloud config set compute/region "REGION"
+gcloud config set compute/region "us-central1"
 ```
 
 4. Create a LOCATION environment variable:
 
 ```bash
-export LOCATION="Region"
+export LOCATION="us-central1"
 ```
 
 # Task 2: Write the sample application (Express.js)
